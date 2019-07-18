@@ -10,6 +10,7 @@ namespace DatingApp.API.Controllers
 {
     //GET http://localhost:5000/api/values/5
     [Route("api/[controller]")]
+    
     public class ValuesController : Controller
     {
         public DataContext _context { get; set; }
