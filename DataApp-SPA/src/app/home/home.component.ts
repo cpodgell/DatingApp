@@ -16,8 +16,7 @@ export class HomeComponent implements OnInit {
     this.getValues();
   }
 
-  registerToggle()
-  {
+  registerToggle() {
     this.registerMode = true;
   }
 
